@@ -1,0 +1,95 @@
+.css-emoticon {
+  font-size: 0px;
+  display:inline-block;
+  height:15px;
+  width: 15px;
+  vertical-align:middle;
+}
+.lol {
+  background: url('../images/icon_lol.gif');
+}
+.oops{
+  background: url('../images/icon_redface.gif');
+}
+.cry{
+ background: url('../images/icon_cry.gif');
+}
+.roll{
+background: url('../images/icon_rolleyes.gif');
+} 
+.exclaim {
+  background: url('../images/icon_exclaim.gif');
+}
+.question {
+  background: url('../images/icon_quesrion.gif');
+}
+.idea {
+  background: url('../images/icon_idea.gif');
+}
+.arrow {
+  background: url('../images/icon_arrow.gif');
+}
+.mrgreen{
+  background: url('../images/icon_mrgreen.gif');
+}
+
+.smile{
+  background: url('../images/sprites.png');
+  background-position: -16px -18px ;
+}
+.biggrin{
+  background: url('../images/sprites.png');
+  background-position: -69px -18px ;
+}
+.sad{
+  background: url('../images/sprites.png');
+  background-position: -116px -18px ;
+}
+
+.shock{
+  background: url('../images/sprites.png');
+  background-position: -167px -18px ;
+}
+
+.confused{
+  background: url('../images/sprites.png');
+  background-position: -218px -18px ;
+}
+
+.cool{
+  background: url('../images/sprites.png');
+  background-position: -16px -68px ;
+}
+
+.mad{
+  background: url('../images/sprites.png');
+  background-position: -68px -68px ;
+}
+
+.razz{
+  background: url('../images/sprites.png');
+  background-position: -118px -68px ;
+}
+
+.neutral{
+  background: url('../images/sprites.png');
+  background-position: -168px -68px ;
+}
+
+.wink{
+  background: url('../images/sprites.png');
+  background-position: -218px -68px ;
+}
+
+.evil{
+   background: url('../images/sprites.png');
+  background-position: -15px -118px ;
+}
+.twisted {
+  background: url('../images/sprites.png');
+  background-position: -68px -118px ;
+}
+.eek {
+  background: url('../images/sprites.png');
+  background-position: -118px -118px ;
+}
