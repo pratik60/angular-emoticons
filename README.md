@@ -4,7 +4,16 @@ angular-emoticons
 
 An Angular Filter to parse text or html replace them by graphichal emoticons.
 
-Originally forked from  http://github.com/JangoSteve/jQuery-CSSEmoticons
+To install in bower.json file add 
+
+```
+"angular-emoticons" : "pratik60/angular-emoticons"
+```
+
+and then do 
+```
+bower install
+```
 
 In the HTML file we have declared a html app post . The controller PostController from the javascript file is given an alias post. Include the required javascript, css files.The javascript snippet which could also be included as a file (app.js) is described below.
 
@@ -39,6 +48,9 @@ app.js
   });
 }).call(this);
 ```
+
+Originally forked from  http://github.com/JangoSteve/jQuery-CSSEmoticons
+
 
   In the angular-emoticons.js file we take the user text as the input and try matching it with the pre-defined emoticons using regular expressions. If any such symbol is found it is replaced with the corresponding emoticon.The displayed message contains the emoticons. This works for  two character emoticons, three character emoticons as well as special emoticons.
 
