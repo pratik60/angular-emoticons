@@ -29,7 +29,7 @@ index.html
     <script type="text/javascript" src="app.js"></script>
     <link rel="stylesheet" type="text/css" href="angular-emoticons.css" />
     <script type="text/javascript" src="angular-emoticons.js"></script>
-    <div class="message" ng-bind-html="msg | emoticonize:showEmoticons"></div>
+    <div class="message" ng-bind-html="msg | emoticonize"></div>
   </body>
 </html>
 ```
@@ -44,7 +44,6 @@ app.js
   app.controller('PostController',function($scope, $sce){
 
    $scope.msg= $sce.trustAsHtml("This is an interesting post   :-) <br/>=D");
-   $scope.showEmoticons = true;
   });
 }).call(this);
 ```
