@@ -5,91 +5,82 @@
   width: 15px;
   vertical-align:middle;
 }
-.lol {
+.css-emoticon.lol {
   background: url('../images/icon_lol.gif');
 }
-.oops{
+.css-emoticon.oops{
   background: url('../images/icon_redface.gif');
 }
-.cry{
+.css-emoticon.cry{
  background: url('../images/icon_cry.gif');
 }
-.roll{
+.css-emoticon.roll{
 background: url('../images/icon_rolleyes.gif');
-} 
-.exclaim {
+}
+.css-emoticon.exclaim {
   background: url('../images/icon_exclaim.gif');
 }
-.question {
+.css-emoticon.question {
   background: url('../images/icon_quesrion.gif');
 }
-.idea {
+.css-emoticon.idea {
   background: url('../images/icon_idea.gif');
 }
-.arrow {
+.css-emoticon.arrow {
   background: url('../images/icon_arrow.gif');
 }
-.mrgreen{
+.css-emoticon.mrgreen{
   background: url('../images/icon_mrgreen.gif');
 }
-
-.smile{
+.css-emoticon.smile{
   background: url('../images/sprites.png');
   background-position: -16px -18px ;
 }
-.biggrin{
+.css-emoticon.biggrin{
   background: url('../images/sprites.png');
   background-position: -69px -18px ;
 }
-.sad{
+.css-emoticon.sad{
   background: url('../images/sprites.png');
   background-position: -116px -18px ;
 }
-
-.shock{
+.css-emoticon.shock{
   background: url('../images/sprites.png');
   background-position: -167px -18px ;
 }
-
-.confused{
+.css-emoticon.confused{
   background: url('../images/sprites.png');
   background-position: -218px -18px ;
 }
-
-.cool{
+.css-emoticon.cool{
   background: url('../images/sprites.png');
   background-position: -16px -68px ;
 }
-
-.mad{
+.css-emoticon.mad{
   background: url('../images/sprites.png');
   background-position: -68px -68px ;
 }
-
-.razz{
+.css-emoticon.razz{
   background: url('../images/sprites.png');
   background-position: -118px -68px ;
 }
-
-.neutral{
+.css-emoticon.neutral{
   background: url('../images/sprites.png');
   background-position: -168px -68px ;
 }
-
-.wink{
+.css-emoticon.wink{
   background: url('../images/sprites.png');
   background-position: -218px -68px ;
 }
-
-.evil{
+.css-emoticon.evil{
    background: url('../images/sprites.png');
   background-position: -15px -118px ;
 }
-.twisted {
+.css-emoticon.twisted {
   background: url('../images/sprites.png');
   background-position: -68px -118px ;
 }
-.eek {
+.css-emoticon.eek {
   background: url('../images/sprites.png');
   background-position: -118px -118px ;
 }
