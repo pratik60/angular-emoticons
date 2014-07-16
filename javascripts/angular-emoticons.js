@@ -166,12 +166,9 @@
     exclude = 'span.css-emoticon';
     exclude += ",pre,code,.no-emoticons";
     excludeArray = exclude.split(',');
-    return function(text, showEmoticons) {
+    return function(text) {
       var cssClass, specialCssClass, _l, _len3, _len4, _len5, _m, _n;
 
-      if (!showEmoticons) {
-        return text;
-      }
       text=text.valueOf();
       cssClass = 'css-emoticon';
             
