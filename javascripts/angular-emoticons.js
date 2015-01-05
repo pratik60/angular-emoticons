@@ -1,7 +1,11 @@
-(function() {
-  var emoticonize, filters;
+// ==ClosureCompiler==
+// @output_file_name default.js
+// @compilation_level SIMPLE_OPTIMIZATIONS
+// ==/ClosureCompiler==
 
-  emoticonize = function($sce) {
+(function() {
+  var filters = angular.module('emoticonizeFilter', []);
+  filters.filter('emoticonize', ['$sce',function($sce) {
     var emoticon, escapeCharacters, exclude, excludeArray, preMatch, specialEmoticons, specialRegex;
     escapeCharacters = [")", "(", "*", "[", "]", "{", "}", "|", "^", "<", ">", "\\", "?", "+", "=", "."];
     specialEmoticons = {
@@ -158,11 +162,11 @@
     preMatch = '(^|[\\s\\0])';
     var specialEmoticonsObject =  {};
    for(emoticon in specialEmoticons)
-   {  
-      emoticon_new = emoticon.replace(specialRegex, '\\$1'); 
+   {
+      emoticon_new = emoticon.replace(specialRegex, '\\$1');
       specialEmoticonsObject[emoticon] = new RegExp(preMatch + '(' + emoticon_new + ')', 'g');
     }
-   
+
     exclude = 'span.css-emoticon';
     exclude += ",pre,code,.no-emoticons";
     excludeArray = exclude.split(',');
@@ -171,18 +175,15 @@
 
       text=text.valueOf();
       cssClass = 'css-emoticon';
-            
+
       for (emoticon in specialEmoticonsObject) {
         specialCssClass = cssClass + " " + specialEmoticons[emoticon].cssClass;
         text = text.replace(specialEmoticonsObject[emoticon], "$1<span class='" + specialCssClass + "'>$2</span>");
       }
-     
+
       return $sce.trustAsHtml(text);
     };
-  };
 
-  filters = angular.module('emoticonizeFilter', []);
-
-  filters.filter('emoticonize', emoticonize);
+  }]);
 
 }).call(this);
