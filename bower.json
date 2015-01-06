@@ -1,6 +1,6 @@
 {
   "name": "angular-emoticons",
-  "version": "0.0.1",
+  "version": "v0.2",
   "description": "This directive allows you to parse emoticons.",
   "author": "QED42",
   "license": "MIT",
